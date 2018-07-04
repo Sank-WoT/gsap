@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GSAP</title>
+</head>
+<body>
+	<div id="header">
+		Hello Sank
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"> </script> 
+<script>
+	var header = document.getElementById('header');
+	TweenMax.to(header, 1, {opacity: 0, y:50}); 
+</script>
+</html>
